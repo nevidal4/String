@@ -1,0 +1,134 @@
+1. Testing S1: String default ctor.
+
+"" size: 0
+
+
+2. Testing S2: String one arg (char *) ctor.
+
+"ABC" size: 3
+
+
+3. Testing S3: String one arg (char) ctor.
+
+"Z" size: 1
+
+
+4. Testing S4: String one arg (int) ctor.
+
+"" size: 10
+
+
+5. Testing S5, T5: String copy ctor.
+
+"Purple Rain" size: 11
+"Purple Rain" size: 11
+
+
+6. Testing S6: String two arg (char, int) ctor.
+
+"**********" size: 10
+
+
+7. Testing S7, T7, U7: String assignment.
+
+"Sally Ride" size: 10
+"Sally Ride" size: 10
+"Sally Ride" size: 10
+
+
+8. Testing S8: String assignment.
+
+"ABC" size: 3
+
+
+9. Testing S9: Implicit type conversion.
+
+"ABC" size: 3
+
+
+10. Testing S10, T10, U10: String concatenation.
+
+"ABCDEFGHI" size: 9
+"XABCDEFGHI" size: 10
+
+
+11. Testing S11, T11: String concatenation.
+
+"ABCDABCD" size: 8
+"BCD" size: 3
+
+
+12. Testing S12, T12: String unary operator.
+
+"Unary +" size: 7
+"UNARY +" size: 7
+"UNARY +" size: 7
+
+
+13. Testing S13, T13: String comparison operators.
+
+"ABC" size: 3
+"ABCD" size: 4
+
+== False
+!= True
+<  False
+<= False
+>  True
+>= True
+
+
+14. Testing S14: Overloaded subscript operator.
+
+Error operator [] lower bound
+"E,,!jt!gvo/" size: 11
+
+
+15. Testing S15: Pointer notation.
+
+BCDEF
+
+
+16. Testing S16, T16, U16, V16, W16, X16, Y16, Z16: Increment and decrement operators.
+
+"BCD" size: 3
+"BCD" size: 3
+"BCD" size: 3
+"ABC" size: 3
+"@AB" size: 3
+"@AB" size: 3
+"@AB" size: 3
+"ABC" size: 3
+
+
+17. Testing S17, T17: Substr function.
+
+"All You Need Is Love" size: 20
+"You N" size: 5
+
+
+18. Testing S18, T18: Output function.
+
+"Red-""Green-""Blue"
+
+
+19. Testing S19, T19, U19: ReverseString class.
+
+"Computer" size: 8
+"retupmoC" size: 8
+"Computer" size: 8
+
+
+20. Testing S20, T20, U20: CaseString class.
+
+"BaLLooN" size: 7
+"BALLOON"
+"balloon"
+"BaLLooN" size: 7
+"BALLOON"
+"balloon"
+"BaLLooN" size: 7
+"BALLOON"
+"balloon"
+
+
